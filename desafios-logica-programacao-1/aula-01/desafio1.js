@@ -1,5 +1,11 @@
-// Desafio 1
-// Idade e nacionalidade para poder votar no Brasil
+// Desafio 01 - Verificar Elegibilidade para Voto
+// Receba através do prompt:
+// ● idade
+// ● nacionalidade
+// Então deve retornar true se a pessoa for elegível para votar, o que ocorre 
+// quando a idade for maior ou igual a 16 e a nacionalidade for "brasileira", 
+// caso contrário, retorna false.
+
 let idade = parseInt(prompt("Informe sua idade:"));
 let nacionalidade = prompt("Informe sua nacionalidade:");
 
@@ -7,4 +13,8 @@ let nacionalidade = prompt("Informe sua nacionalidade:");
 let podeVotar = idade >= 16 && nacionalidade.toLowerCase() === "brasileira";
 
 // Mostra o resultado
-alert(podeVotar);
+if (podeVotar) {
+    alert("Pode votar!");
+} else {
+    alert("Não pode votar!");
+}
