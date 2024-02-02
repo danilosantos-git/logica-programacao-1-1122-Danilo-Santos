@@ -9,7 +9,7 @@
 // ● O score de crédito for maior ou igual a 700. 
 // ● A idade for maior ou igual a 18.
 
-// Entrada dos dados
+// Entrada dos dados e conversão
 let salario = parseFloat(prompt("Digite o salário:"));
 let score = parseInt(prompt("Digite o score de crédito:"));
 let idade = parseInt(prompt("Digite a idade:"));

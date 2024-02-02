@@ -6,7 +6,7 @@
 // quando a idade for maior ou igual a 16 e a nacionalidade for "brasileira", 
 // caso contrário, retorna false.
 
-// Entrada dos dados
+// Entrada dos dados e conversão
 let idade = parseInt(prompt("Informe sua idade:"));
 let nacionalidade = prompt("Informe sua nacionalidade:");
 

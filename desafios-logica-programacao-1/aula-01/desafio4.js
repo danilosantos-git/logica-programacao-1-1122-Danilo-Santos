@@ -9,14 +9,10 @@
 // ● E a compra for maior ou igual a R$ 100.
 // ● E se isNewClient for False
 
-// Entrada dos dados
-let idade = prompt("Digite a sua idade:");
-let compraMinima = prompt("Digite o valor da compra mínima:");
+// Entrada dos dados e conversão
+let idade = parseInt(prompt("Digite a sua idade:"));
+let compraMinima = parseFloat(prompt("Digite o valor da compra mínima:"));
 let isNewClient = prompt("Digite 's' se você é um novo cliente, ou 'n' caso contrário:");
-
-// Converte os inputs para os respectivos tipos
-idade = parseInt(idade);
-compraMinima = parseFloat(compraMinima);
 
 // Checa se uma opção válida foi escolhida (loop)
 while (isNewClient.toLowerCase() !== 's' && isNewClient.toLowerCase() !== 'n') {
