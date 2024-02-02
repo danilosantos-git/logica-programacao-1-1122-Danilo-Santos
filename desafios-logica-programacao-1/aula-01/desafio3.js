@@ -14,7 +14,7 @@ navegador = navegador.toLowerCase();
 sistemaOperacional = sistemaOperacional.toLowerCase();
 
 // Verifica o navegador e o OS
-let compativel = (navegador === "Chrome" || navegador === "Firefox") && (sistemaOperacional === "Windows" || sistemaOperacional === "Mac");
+let compativel = (navegador === "chrome" || navegador === "firefox") && (sistemaOperacional === "windows" || sistemaOperacional === "mac");
 
 // Retorna o resultado
 if (compativel) {
