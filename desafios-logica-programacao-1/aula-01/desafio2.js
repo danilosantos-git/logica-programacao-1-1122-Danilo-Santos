@@ -9,16 +9,17 @@
 // ● O score de crédito for maior ou igual a 700. 
 // ● A idade for maior ou igual a 18.
 
+// Entrada dos dados
 let salario = parseFloat(prompt("Digite o salário:"));
-let scoreDeCredito = parseInt(prompt("Digite o score de crédito:"));
+let score = parseInt(prompt("Digite o score de crédito:"));
 let idade = parseInt(prompt("Digite a idade:"));
 
 // Verifica se foi aprovado para o empréstimo
-let isApproved = salario >= 5000 && scoreDeCredito >= 700 && idade >= 18;
+let aprovado = salario >= 5000 && score >= 700 && idade >= 18;
 
 // Mostra o resultado
-if (isApproved) {
+if (aprovado) {
     alert("Aprovado para o empréstimo!");
 } else {
-    alert("Não aprovado para o empréstimo.");
+    alert("Não aprovado para o empréstimo!");
 }
